@@ -12,6 +12,10 @@ Golden Eye Readme
 	http://www.pixiq.com/article/camera-laser-trigger
 	http://www.doc-diy.net/photo/eos_wired_remote/
 
+[Notes regarding transistors]
+
+	NPN - 2N3904
+
 [Notes regarding Andrea's Camera Cable]
 
 	focus   = green
