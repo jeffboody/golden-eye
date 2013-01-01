@@ -1,46 +1,36 @@
-Golden Eye Readme
+About
+=====
 
-[About]
+Golden Eye consists of a custom PCB and Arduino code for a passive IR
+motion sensor which can trigger a Canon DSLR camera to take a picture.
 
-	Golden Eye consists of a custom PCB and Arduino code for a passive IR
-	motion sensor which can trigger a Canon DSLR camera to take a picture.
+Send questions or comments to Jeff Boody at jeffboody@gmail.com
 
-	Send questions or comments to Jeff Boody at jeffboody@gmail.com
-
-[References]
+References
+==========
 
 	http://www.pixiq.com/article/camera-laser-trigger
-	http://www.doc-diy.net/photo/eos_wired_remote/
+	http://www.doc-diy.net/photo/eos_wired_remote
 
-[Notes regarding transistors]
+Notes regarding transistors
+===========================
 
 	NPN - 2N3904
 
-[Notes regarding Andrea's Camera Cable]
+Notes regarding Andrea's Camera Cable
+=====================================
 
 	focus   = green
 	shutter = purple
 	ground  = blue
 
-[Installing Arduino Dev Kit]
+Installing Arduino Dev Kit
+==========================
 
-	# some Linux distributions install brltty which cause
-	# problems with Arduino
-	# http://www.ladyada.net/learn/arduino/lesson0-lin.html
-	sudo apt-get remove brltty
+	sudo apt-get install arduino
 
-	# http://www.arduino.cc/en/Main/Software
-	# http://www.arduino.cc/playground/Learning/Linux
-	# java should be sun-java6-jre
-	# http://shuffleos.com/5042/install-sun-java-6-packages-ubuntu-ppa/
-
-	java -version
-	sudo apt-get install gcc-avr
-	sudo apt-get install avr-libc
-	cd $ARDUINO
-	tar -xzf arduino-1.0-linux64.tgz
-
-[License]
+License
+=======
 
 	Copyright (c) 2012 Jeff Boody
 
